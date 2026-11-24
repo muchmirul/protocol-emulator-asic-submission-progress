@@ -1,0 +1,21 @@
+{
+  "R_ohm": 2310.0,
+  "C_pF": 100,
+  "start_V": 0,
+  "budget_ns": 100,
+  "charge_to_30pct_of_bus_VDD_ns": 82.391912,
+  "rows": [
+    {
+      "line": "SCL",
+      "tabulated_oe_release_ns": 5.94787,
+      "command_to_R30_with_ideal_switch_ns": 88.339782,
+      "allowance_for_unmodeled_delay_in_this_example_ns": 11.660218
+    },
+    {
+      "line": "SDA",
+      "tabulated_oe_release_ns": 6.79081,
+      "command_to_R30_with_ideal_switch_ns": 89.182722,
+      "allowance_for_unmodeled_delay_in_this_example_ns": 10.817278
+    }
+  ]
+}

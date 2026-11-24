@@ -1,0 +1,44 @@
+{
+  "project_rise_max_ns": 200,
+  "fast_rise_max_ns": 300,
+  "R_ohm": 2310.0,
+  "C_pF": 100,
+  "RC_ns": 231.0,
+  "original_ideal_check": {
+    "pass": true,
+    "detail": {
+      "min_ns": 35.417139999999996,
+      "max_ns": 195.72630000000004,
+      "scope": "ideal RC estimate, qualification still required"
+    }
+  },
+  "zero_sink": {
+    "VDD_V": 3.135,
+    "sink_uA": 0,
+    "Vinf_V": 3.135,
+    "low_threshold_V": 0.9404999999999999,
+    "high_threshold_V": 2.1944999999999997,
+    "voltage_after_limit_V": 2.2117420696225873,
+    "rise_ns": 195.72580574944396,
+    "meets_project_rise_max": true,
+    "meets_fast_rise_max": true
+  },
+  "constant_sink": {
+    "VDD_V": 3.135,
+    "sink_uA": 20,
+    "Vinf_V": 3.0888,
+    "low_threshold_V": 0.9404999999999999,
+    "high_threshold_V": 2.1944999999999997,
+    "voltage_after_limit_V": 2.1849790786831647,
+    "rise_ns": 202.44627972696853,
+    "meets_project_rise_max": false,
+    "meets_fast_rise_max": true
+  },
+  "current_for_exact_limit_uA": 12.8850094980897,
+  "shunt_example": {
+    "shunt_ohm": 173250.0,
+    "max_current_at_top_supply_uA": 20.0,
+    "rise_ns": 199.0488683848125,
+    "meets_project_rise_max": true
+  }
+}

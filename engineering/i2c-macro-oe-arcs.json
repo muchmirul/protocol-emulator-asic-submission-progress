@@ -1,0 +1,208 @@
+{
+  "clock_reference": "rising at macro clk, 50 percent",
+  "output_reference": "macro output enable, 50 percent",
+  "load_fF": [
+    1,
+    23.4,
+    39,
+    64.8,
+    108,
+    180,
+    300
+  ],
+  "point_count": 84,
+  "rows": [
+    {
+      "model": "tt_um_g3_c128_256__nom_fast_1p32V_m40C.lib",
+      "line": "SCL",
+      "terminal": "uio_oe[0]",
+      "oe_edge": "rise",
+      "command": "request_low",
+      "clock_to_oe_ns": [
+        1.94872,
+        1.99915,
+        2.0275,
+        2.07325,
+        2.1494,
+        2.27594,
+        2.48654
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_fast_1p32V_m40C.lib",
+      "line": "SCL",
+      "terminal": "uio_oe[0]",
+      "oe_edge": "fall",
+      "command": "release",
+      "clock_to_oe_ns": [
+        2.0507,
+        2.08939,
+        2.11291,
+        2.15141,
+        2.21576,
+        2.32297,
+        2.50141
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_fast_1p32V_m40C.lib",
+      "line": "SDA",
+      "terminal": "uio_oe[1]",
+      "oe_edge": "rise",
+      "command": "request_low",
+      "clock_to_oe_ns": [
+        1.88554,
+        1.98117,
+        2.03901,
+        2.13312,
+        2.29011,
+        2.55194,
+        2.98703
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_fast_1p32V_m40C.lib",
+      "line": "SDA",
+      "terminal": "uio_oe[1]",
+      "oe_edge": "fall",
+      "command": "release",
+      "clock_to_oe_ns": [
+        2.00215,
+        2.08996,
+        2.13753,
+        2.21176,
+        2.33326,
+        2.53483,
+        2.87052
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_slow_1p08V_125C.lib",
+      "line": "SCL",
+      "terminal": "uio_oe[0]",
+      "oe_edge": "rise",
+      "command": "request_low",
+      "clock_to_oe_ns": [
+        4.56252,
+        4.68073,
+        4.74965,
+        4.86189,
+        5.04925,
+        5.36102,
+        5.88067
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_slow_1p08V_125C.lib",
+      "line": "SCL",
+      "terminal": "uio_oe[0]",
+      "oe_edge": "fall",
+      "command": "release",
+      "clock_to_oe_ns": [
+        4.83133,
+        4.92481,
+        4.98296,
+        5.07858,
+        5.23855,
+        5.50443,
+        5.94787
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_slow_1p08V_125C.lib",
+      "line": "SDA",
+      "terminal": "uio_oe[1]",
+      "oe_edge": "rise",
+      "command": "request_low",
+      "clock_to_oe_ns": [
+        4.41508,
+        4.64423,
+        4.78735,
+        5.02193,
+        5.41384,
+        6.06654,
+        7.15428
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_slow_1p08V_125C.lib",
+      "line": "SDA",
+      "terminal": "uio_oe[1]",
+      "oe_edge": "fall",
+      "command": "release",
+      "clock_to_oe_ns": [
+        4.70226,
+        4.90864,
+        5.02118,
+        5.19848,
+        5.49105,
+        5.97837,
+        6.79081
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_typ_1p20V_25C.lib",
+      "line": "SCL",
+      "terminal": "uio_oe[0]",
+      "oe_edge": "rise",
+      "command": "request_low",
+      "clock_to_oe_ns": [
+        2.87997,
+        2.95588,
+        3.00001,
+        3.07183,
+        3.19136,
+        3.39044,
+        3.72188
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_typ_1p20V_25C.lib",
+      "line": "SCL",
+      "terminal": "uio_oe[0]",
+      "oe_edge": "fall",
+      "command": "release",
+      "clock_to_oe_ns": [
+        3.08704,
+        3.14468,
+        3.17972,
+        3.23729,
+        3.33326,
+        3.49297,
+        3.75946
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_typ_1p20V_25C.lib",
+      "line": "SDA",
+      "terminal": "uio_oe[1]",
+      "oe_edge": "rise",
+      "command": "request_low",
+      "clock_to_oe_ns": [
+        2.79066,
+        2.93707,
+        3.0282,
+        3.1774,
+        3.42699,
+        3.84234,
+        4.53395
+      ]
+    },
+    {
+      "model": "tt_um_g3_c128_256__nom_typ_1p20V_25C.lib",
+      "line": "SDA",
+      "terminal": "uio_oe[1]",
+      "oe_edge": "fall",
+      "command": "release",
+      "clock_to_oe_ns": [
+        3.00843,
+        3.13788,
+        3.20712,
+        3.31497,
+        3.49168,
+        3.7854,
+        4.27486
+      ]
+    }
+  ]
+}
