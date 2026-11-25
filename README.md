@@ -14,6 +14,8 @@ This repository is a progress snapshot for the Jane Street protocol-emulator ASI
 - [I²C macro output-enable timing](engineering/i2c-macro-oe-arcs.json): 84 saved model points. The largest modeled delays were 7.15428 ns to request low and 6.79081 ns to release, both on SDA. Both end at the macro enable terminal, not the wire. The [ideal release example](engineering/i2c-macro-oe-release-example.json) does not qualify the installed 100 ns first-threshold budget.
 - [I²C pull-up calculation](engineering/i2c-pullup-rise.json): at 2,310 Ω and 100 pF, the modeled 30–70% rise is 195.726 ns with no leakage and 202.446 ns with a constant 20 µA sink. These examples are not hardware measurements or evidence of a standards violation.
 - [G5.04 end-to-end READ_RX data check](evidence/g504-read-data-endtoend-2026-11-24/report.md): checker-only evidence comparing the DUT's READ_RX output to the independently decoded wire read payload (5/5 pass) and recomputing the reply-frame CRC16. The bundled script needs the full local evidence tree to run; this snapshot records the result, not the full reproduction.
-- [File checksums](SHA256SUMS): run `sha256sum -c SHA256SUMS` to verify the seven RTL files, three data files, and the G5.04 evidence bundle. No new simulation, synthesis, or hardware tests were run for this export.
+
+- [G5.04 I2C START/STOP/Sr order-and-count check](evidence/start-stop-order-2026-11-25/report.md): checker-only invariants over the seven retained B16 I2C traces (event ordering, START/Sr-to-segment count, byte/ninth consistency, documented per-fixture signatures), 7/7 pass. The bundled script needs the full local evidence tree to run; this snapshot records the result, not the full reproduction.
+- [File checksums](SHA256SUMS): run `sha256sum -c SHA256SUMS` to verify the seven RTL files, three data files, and the two G5.04 evidence bundles. No new simulation, synthesis, or hardware tests were run for this export.
 
 [Apache License 2.0](LICENSE)

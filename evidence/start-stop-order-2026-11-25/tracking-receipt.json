@@ -1,0 +1,15 @@
+{
+  "id": "G504-20261125-start-stop-order",
+  "date": "2026-11-25",
+  "scope": "checker-only I2C START/STOP/Sr order-and-count invariants on the seven retained B16 transcripts (G5.04 coverage-misclassification gap); no RTL/simulation/peer-log oracle",
+  "result": "7/7 PASS; 8 isolated event-structure mutations all detected (non-zero exit)",
+  "limits": "does not assert clock-stretch behavior; documented-signature layer is a frozen-fixture regression, not protocol conformance",
+  "inputs": {
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-bus-transcript/decode.py": "7121420c875ef7478bed36f4375060d5e34b63a10fb436ce4cb0f90d1bfac505",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-bus-transcript/transcripts.json": "1fa17b63fcbf4ac46abe8e9e5d85339ee6923809ab10acde32da17b9a7685bba",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-bus-transcript/retained-traces.zip": "e1a4f02ddd33208d1fd5f1c1e8f062c172a798a015ccd529263ba9a291520210",
+    "evidence/G5/g504-sensitivity-2026-11-21/start-stop-order-2026-11-25/check_start_stop_order.py": "95bc6c699edefe4d2fa0744e42b61e8eace588a6f2f860f4b21e004bbff0e79b"
+  },
+  "gate_change": null,
+  "req_change": null
+}
