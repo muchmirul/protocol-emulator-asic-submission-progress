@@ -1,6 +1,7 @@
 416d55872068f56f4caa4d9bb371095bc6cd5b0c6d57ac52ed75caf5ac892f54  engineering/i2c-macro-oe-arcs.json
 4e03fe0582f3378e5b1c1e2b9960ebd2df3965d84ab364723aa1da746bfe6f82  engineering/i2c-macro-oe-release-example.json
 1be22282e1773c0a8d798181a13855d4e16a2ed078d9041671391038df515112  engineering/i2c-pullup-rise.json
+12aaca6341f33f43a294ee079ffc5d5c412ea0af510cc6182410110c4c566d5f  evidence/checker-scope-status-2026-11-25.md
 a6c1befebb6fed1371b91402075ba95e678c8d321b9dd2f1f906c0d53358cfef  evidence/exclusion-classification-2026-11-25.md
 a8b367cf977fc037c6f70ca5038df480aaba5c1d9010ddad37c8df48e947c055  evidence/g504-read-data-endtoend-2026-11-24/check_read_endtoend.py
 2f6356db75ec5ca97c728fdf24bdb9ee0849ea5fef949504d4cbeaafb09e689d  evidence/g504-read-data-endtoend-2026-11-24/report.md

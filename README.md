@@ -18,6 +18,8 @@ This repository is a progress snapshot for the Jane Street protocol-emulator ASI
 - [G5.04 I2C START/STOP/Sr order-and-count check](evidence/start-stop-order-2026-11-25/report.md): checker-only invariants over the seven retained B16 I2C traces (event ordering, START/Sr-to-segment count, byte/ninth consistency, documented per-fixture signatures), 7/7 pass. The bundled script needs the full local evidence tree to run; this snapshot records the result, not the full reproduction.
 
 - [G5.04 exclusion classification](evidence/exclusion-classification-2026-11-25.md): coverage-gap review that reclassifies the D05 exclusions (SPI CS boundary, PHASE durations, streaming, analog, watchdog, bounds) into tested / limited-deferred / provably-unreachable, with contract and evidence justification. This copy is public-sanitized (the competition Notion link is omitted).
+
+- [G5.04 checker-scope status](evidence/checker-scope-status-2026-11-25.md): disposition summary mapping the four G5.04 gaps to closed-in-checker-scope (Data; coverage misclassification) versus carried to a new-simulation scope (raw boundary-timing/branch-path; loader/stop-safety). Public-sanitized copy.
 - [File checksums](SHA256SUMS): run `sha256sum -c SHA256SUMS` to verify the seven RTL files, three data files, and the G5.04 evidence. No new simulation, synthesis, or hardware tests were run for this export.
 
 [Apache License 2.0](LICENSE)
