@@ -1,6 +1,9 @@
 416d55872068f56f4caa4d9bb371095bc6cd5b0c6d57ac52ed75caf5ac892f54  engineering/i2c-macro-oe-arcs.json
 4e03fe0582f3378e5b1c1e2b9960ebd2df3965d84ab364723aa1da746bfe6f82  engineering/i2c-macro-oe-release-example.json
 1be22282e1773c0a8d798181a13855d4e16a2ed078d9041671391038df515112  engineering/i2c-pullup-rise.json
+a8b367cf977fc037c6f70ca5038df480aaba5c1d9010ddad37c8df48e947c055  evidence/g504-read-data-endtoend-2026-11-24/check_read_endtoend.py
+2f6356db75ec5ca97c728fdf24bdb9ee0849ea5fef949504d4cbeaafb09e689d  evidence/g504-read-data-endtoend-2026-11-24/report.md
+c260ae4256a3c73a12fac1a2627589954b237e1adc0a57025598770be4a180a0  evidence/g504-read-data-endtoend-2026-11-24/tracking-receipt.json
 00c2aee19a1d8e23af1893825e36dc217cda977d7ff1d99c5d750587029d19f4  frozen-b17/rtl/g2_ac_pins.sv
 a7c3c95166c83d1dea9d067e2cadf1fdf7cc4369b8b5f895196ae9c62394b7e4  frozen-b17/rtl/g2_ac_scalar_decode.sv
 647f631c7a39e278e787f81fd95ab49093946767b72924be250293c6135acf84  frozen-b17/rtl/g2_ac_serial_payload.sv

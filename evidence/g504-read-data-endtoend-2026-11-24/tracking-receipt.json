@@ -1,0 +1,29 @@
+{
+  "id": "G504-20261124-read-data-endtoend",
+  "date": "2026-11-24",
+  "scope": "checker-only end-to-end READ_RX data check (G5.04 Data gap); no RTL/simulation/peer-log oracle",
+  "result": "5/5 PASS",
+  "negative_control": "2 isolated mutations (data byte, count) detected; non-zero exit",
+  "inputs": {
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/wire_oracle.py": "75eea8906ce4fcf049dfa4d8ea51686995cc7b68991e11dce8b706c2fd04128e",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/run.py": "cb07853c1961812bdd2bb12ef612f44c0492426b68b60b4fe761865fa6edd0d3",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-bus-transcript/decode.py": "7121420c875ef7478bed36f4375060d5e34b63a10fb436ce4cb0f90d1bfac505",
+    "evidence/G5/g504-sensitivity-2026-11-21/read-data-endtoend-2026-11-24/check_read_endtoend.py": "a8b367cf977fc037c6f70ca5038df480aaba5c1d9010ddad37c8df48e947c055"
+  },
+  "trace_vcd": {
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nominal/trace.vcd": "c94ed42fd025f46f53674f13be8dfbcd654b6e0b8acc9afcbb0b8d078b279e12",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/changed-read/trace.vcd": "c478dae35bc1189d442cf4594d656d437914e748efb952dca09d2e72aa1504ef",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nack-write-address/trace.vcd": "682b8624bd2f1189eaa09e2d3250895df9b1af59049b5aabda452005fd411f4c",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nack-payload/trace.vcd": "ab797801c3fa0ae9fda5d2bc5ce9839a17908c2c14ecd86785c1279c5da79d36",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nack-read-address/trace.vcd": "fde36b0a046d95e011c985ce42e1aac6de366d5aeb205a05345383faea991e97"
+  },
+  "host_logs": {
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nominal/run.log": "52ec5fd07eac66c4750127b9ff0fd59c167222b68b1e60b56da18d6b8718dc1a",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/changed-read/run.log": "39de828fd36d74f46056365e74882b65f7f8e27af6ce9e1f64076ef0053a322b",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nack-write-address/run.log": "59db410d471c07a78f586b8dbbd029bd76814a54249398a67b049ddae97478fc",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nack-payload/run.log": "52ba80a94b808d04218b715b9737b12c3a7cc2f61ec43734b717d7f6bc7c4b1b",
+    "evidence/G5/g504-sensitivity-2026-11-21/i2c-program-fit/captures/nack-read-address/run.log": "f80fa4437670b7472abb147934d8cecb947b5ec4e8ecfc3d961dedfd4e1fb5a0"
+  },
+  "gate_change": null,
+  "req_change": null
+}
